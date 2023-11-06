@@ -1,7 +1,7 @@
 import pyttsx3
 from PyPDF2 import PdfReader
 
-pdf_reader = PdfReader('C:\\Users\\etmke\\OneDrive\\Desktop\\cover letter gov of Ont.pdf')
+pdf_reader = PdfReader('C:\\Users\\xxxx\\OneDrive\\Desktop\\cover letter gov of Ont.pdf')
 reader = pyttsx3.init()
 
 voices = reader.getProperty('voices')
